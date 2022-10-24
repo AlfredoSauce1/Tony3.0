@@ -10,7 +10,7 @@ public class Help extends ListenerAdapter {
         String name = event.getMember().getUser().getName();
         if(messageSent[0].equalsIgnoreCase("$help")){
             if(!event.getMember().getUser().isBot()){
-                event.getChannel().sendMessage("Commands list \n $calc").queue();
+                event.getChannel().sendMessage("Commands list \n $calc \n $sigma").queue();
             }
         }
 
